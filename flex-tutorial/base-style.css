@@ -1,0 +1,36 @@
+.container > div {
+    text-align: center;
+    font-size: 2em;
+}
+
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+}
+
+.container {
+    background-color: aquamarine;
+}
+
+body {
+    background-color: rgb(171, 150, 124);
+}
+
+.home {
+    color:rgb(171, 150, 124);
+ 
+}
+
+.search {
+    color:rgb(171, 150, 124);
+}
+
+.logout {
+    color:rgb(171, 150, 124);
+}
+
+.profile{
+    color:rgb(171, 150, 124);
+}

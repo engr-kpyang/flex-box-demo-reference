@@ -1,0 +1,82 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+}
+
+
+
+
+
+
+
+/* Using media queries with flex */
+/* .search {
+    flex: 1;
+}
+
+@media all and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .container > li {
+        flex: 1 1 50%
+    }
+    .search > input {
+        text-align: center;
+    }
+    
+}
+
+@media all and (max-width: 400px) {
+    .container > li {
+        flex: 1 1 100%;
+    }
+    .search {
+        order: 1;
+    }
+} */
+
+
+/* ------------ORDER------------- */
+/* Order just allows us to move our HTML element from their current order
+in HTML to any order we want by specifing their index. So below, order is
+just staying at what index they can be moved to. */
+/* .home {
+    order: 1;
+}
+.search{
+    order: 3;
+}
+.logout {
+    order: 2;
+} */
+
+
+/*-----------FLEX GROW, SHRINK AND BASIS-----------*/
+/* .home {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+} */
+/* .logout {PUT BELOW IN HERE} */
+    /* flex <- remember this is the short hand for all three */
+    /* flex: 1 1 200px OR just 1 */
+    /* flex shrinkg, and grow are in relation to each other. */
+    /* flex-grow is default to 1 */
+    /* flex-grow: 1; */
+    /* flex-shrink is default to 0 */
+    /* flex-shrink: 1; */
+    /* flex-basis: This allows us to set the base width of the element. */
+    /* flex-basis: 200px; */
+
+
+/* ------------FLEX-WRAP------------ */
+/* The default behavor to flex-wrap and also implicit, is no-wrap.
+If changed to wrap, everything on the same row will wrap over to the next row.  */
+
+
+/* -----------FLEX-DIRECTION----------- */
+/* By setting flex-direction to either row or column we change the direction of main.
+If direction is row, it is start left to right, if column, from start top to end bottom.*/
+/* justify-content is with the main axis from start to end */
+/* align-tiems is with the cross axis from start to end */
